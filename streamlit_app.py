@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ################################################################
-st.set_page_config(page_title="Dario & Amine - Our first app!", 
+st.set_page_config(page_title="My work tracking app!", 
                    page_icon='🎉')
 
 # ################################################################
