@@ -41,5 +41,6 @@ if st.session_state["input_form_clicked"]:
     # with placeholder.form("new_form"):
     htp5="https://lh3.googleusercontent.com/pw/AIL4fc-u_AzKi0MTjL8-EAWJBNjO62Nlk3H5T9NTbJw0eJXsOkqDuZe7pTyhU6mWzmHMbTCnHEjU6MotCLRsc5PNGCJ8KbP83ehff-nQ6CzqIwl6J3Q8iviyIsQSKDRzfLYgLqHyCZdUmnORJKPaf4D-N-vzgw=w2002-h1502-s-no"
     st.image(htp5, width=300)
-    st.write(f"You left at {datetime.utcnow()} UTC time")
+    time = datetime.utcnow().strftime("HH:MM:SS")
+    st.write(f"You left at {time} UTC time")
         
