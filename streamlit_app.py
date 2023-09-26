@@ -41,7 +41,7 @@ if st.session_state["input_form_clicked"]:
     # st.image(htp5, width=300)
     time = datetime.utcnow()
     st.write(f"You left at {time} UTC time")
-    uk_tz = timezone('Europe/UK')
+    uk_tz = timezone('Europe/London')
     time_uk = time.astimezone(uk_tz)
     st.write(f"You left at {time_uk} UK")
         
